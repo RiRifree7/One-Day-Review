@@ -1,0 +1,110 @@
+
+
+
+nav {
+    background-color: #FFFADB;
+}
+
+.reasons {
+    text-indent: 50;
+    text-align: center;
+}
+
+#rain {
+    padding: 1 rem;
+    margin: 7 rem;
+}
+
+/* .customButton { 
+    border:20.6px solid #FFFADB;
+    border-radius:42.3px;
+    padding:0px;
+     margin:0px;
+    background-color:#FFFADB;
+    color:#774936;
+    font-weight:700;
+    opacity:1;
+    transition:1s;
+    } 
+    .customButton:hover {
+    cursor:pointer;
+    background-color:#FFFADB;
+    opacity:0.5;
+    transition:1s;
+    color:#774936;
+    }   */
+    
+
+/* .customButton { 
+    border:20.6px solid #FFFADB;
+    border-radius:42.3px;
+    padding:7px;
+     margin:60px;
+    background-color:#FFFADB;
+    color:#774936;
+    font-weight:700;
+    opacity:1;
+    transition:1s;
+    } 
+    .customButton:hover {
+    cursor:pointer;
+    background-color:#FFFADB;
+    opacity:0.5;
+    transition:1s;
+    color:#774936;
+    }  */
+    
+
+/* 
+.nav-item{
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    font-size: 42px;
+    color: red;
+}
+
+.nav-item:before {
+    position: absolute;
+    background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
+    background-size: 36px 40px;
+    width: 100px;
+    height: 2px;
+    content: "";
+    top: 35px;
+}
+
+.nav-item:after {
+    position: absolute;
+    background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
+    background-size: 36px 40px;
+    width: 200px;
+    height: 20px;
+    top: 53px;
+    left: 18px;
+    background-position: 0px -20px;
+    content: ""; */
+
+/* hover {
+    text-decoration: ;
+} */
+
+#dropdown {
+    background-color: #FFFADB;
+    text-decoration-color: #774936;
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  #jumbotron-section {
+    padding-top: 7 !important;
+    height: 560px;
+    background-image: url(https://images.unsplash.com/photo-1464151759330-a3441f3da55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+    background-size: cover;
+    background-position: center center;
+    
+}
