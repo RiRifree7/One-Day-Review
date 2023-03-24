@@ -1,5 +1,19 @@
 
+#title {
+    font-family: 'Dancing Script', cursive;
+}
 
+#tron {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+p {
+    font-family: 'Noto Serif Lao', serif;
+}
+
+body {
+    background-color: #FFFADB;
+}
 
 nav {
     background-color: #FFFADB;
@@ -13,6 +27,11 @@ nav {
 #rain {
     padding: 1 rem;
     margin: 7 rem;
+}
+
+
+.btn {
+    background-color:#c0b298;
 }
 
 /* .customButton { 
@@ -107,4 +126,32 @@ img {
     background-size: cover;
     background-position: center center;
     
+}
+
+#raindrops {
+    margin: 2px;
+    padding-top: 200px;
+}
+
+.tropical {
+    color: #E4D154;
+}
+
+.roots {
+    color: #F17E67;
+}
+
+#card {
+   margin: 200px;
+   padding-bottom: 200px;
+
+    
+} 
+
+footer {
+    color: #FFFADB;
+}
+
+#com {
+    color: #E4D154;
 }

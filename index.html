@@ -8,13 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f936805fa2.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Delicious+Handrawn&family=Noto+Serif+Lao:wght@300&display=swap" rel="stylesheet">
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
         <!--NAV (optional)-->
-        <nav class="navbar navbar-expand-lg bg-cornsilk fixed-top">
+        <nav class="navbar navbar-expand-lg bg-cornsilk fixed-top" id="title">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Let It Rain Tropical Nursery</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +40,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Growing Zone Map</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">#ProPlantTips</a>
+                    <a class="nav-link link-success" href="#">#ProPlantTips</a>
                   </li>
                   <li class="nav-item" id="pricing">
                     <a class="nav-link" href="#">Pricing</a>
@@ -60,8 +64,8 @@
             
                         <div class="container d-flex flex-column justify-content-center h-50">
             
-                            <h1 class="display-1 fw-bolder ">Let It Rain Tropical Nursery</h1>
-                            <p class="">Raindrops falling on your plants since 2012.</p>
+                            <h1 class="display-1 fw-bolder" id="tron">Let It Rain Tropical Nursery</h1>
+                            <p class="2012">Raindrops falling on your plants since 2012.</p>
 
                             <!-- <div class="align-content-stretch align-content-end flex-wrap position-absolute bottom-0 start-50 translate-middle-x">
                               <h3>SHOP SPRING FAN FAVORITES</h3>
@@ -81,12 +85,30 @@
             
                     </div>
 
-          <div>
+
+                    <section class="mt-5">
+                      <h1 class="text-center">Why Buy From Let It Rain?</h1>
+                      <p class="text-center fs-3">Since 2012, Let It Rain Tropical Nursery is <strong>THE</strong> Source for unique, rare, and native plants.</p>
+                      <p class="text-center fs-4">Hi! We're Let It Rain <strong class="tropical">Tropical</strong> Nursery and we're a group of real people offering really good <strong class="link-success">plants</strong>. Really! For over 12 years we've been passionate about providing high quality plants you can count on for prices you'll love. We ship directly from the nursery to your doorstep to uphold the quality you deserve. Let our professional growers build the <strong class="roots">roots</strong> & put in the work that sets your garden up for success!</p>
+                    </section>
+
+                    <section>
+                      <figure class="d-flex justify-content-center" id="raindrops">
+                        <audio
+                            controls
+                            src="media/raindrops.mp3">
+                                <a href="media/raindrops.mp3">
+                                </a>
+                        </audio>
+                    </figure>
+                    </section>
+
+          <!-- <div>
             <section>
               <h1 class="text-center">Why Buy From Let It Rain?</h1>
               <p class="text-center fs-3">Since 2012, Let It Rain Tropical Nursery is <strong>THE</strong> Source for unique, rare, and native plants.</p>
             </section>
-          </div>
+          </div> -->
 
           <!-- <div>
             <section>
@@ -154,7 +176,7 @@
 
             </div>
 
-          </div> -->
+          </div>  -->
 
         <!-- <h5>
           <ul class="list-group list-group-horizontal-md" id="reasons">
@@ -168,12 +190,12 @@
     </header>
     <main>
         <!--CONTENT-->
-        <div>
-          <section>
+        
+          <!-- <section>
             <h1 class="text-center">Why Buy From Let It Rain?</h1>
             <p class="text-center fs-3">Since 2012, Let It Rain Tropical Nursery is <strong>THE</strong> Source for unique, rare, and native plants.</p>
           </section>
-        </div>
+       -->
 
         <!-- <div>
           <section>
@@ -181,9 +203,10 @@
           </section>
         </div> -->
 
-        <div class="d-flex justify-content-evenly py-5">
-
-          <div class="card row py-lg-25" style="width: 18rem;">
+        
+        
+          
+          <!-- <div class="card row py-lg-25" style="width: 18rem;">
             <img src="https://images.unsplash.com/photo-1567748157439-651aca2ff064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyb3BpY2FsJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -237,17 +260,163 @@
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div> -->
+
+          <!-- </div> 
+
+
+          <section>
+            <div class="hstack col-md-4 mb">
+             
+              <div class="card row py-lg-25" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1567748157439-651aca2ff064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyb3BpY2FsJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1527017895487-3ac53c0f03fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHRyb3BpY2FsJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1526621505016-82146aa08efd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
             </div>
+
+
+            </div>
+          </section>
+
+          <section>
+
+            <div></div>
+
+            <div class="d-flex justify-content-evenly py-5">
+              <div class="card row py-lg-25" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1610880410715-a1777d0a2326?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg3fHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1594135019404-8811e4f22d33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzIzfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1612528906318-cc0153dbf0c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzIxfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+
+          </section> -->
+          <div class="d-flex justify-content-evenly py-5" id="card">
+
+            <!-- <div class="card row py-lg-25" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1567748157439-651aca2ff064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyb3BpY2FsJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>  -->
+
+            <div class="card" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1527017895487-3ac53c0f03fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHRyb3BpY2FsJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Heliconia Caribaea</h5>
+                <p class="card-text fw-bold">Most Heliconia species are pollinated by hummingbirds, with a few species pollinated by bats. Cross pollination between species is rarely successful in cultivation, and is unheard of in the wild.
+
+                </p>
+                <a href="#" class="btn" id="button">View Options</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1526621505016-82146aa08efd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aechmea fasciata</h5>
+                <p class="card-text fw-bold">It is commonly called the silver vase or urn plant and is native to Brazil. This plant is probably the best known species in this genus, and it is often grown as a houseplant in temperate areas.</p>
+                <a href="#" class="btn">View Options</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1612528906318-cc0153dbf0c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzIxfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Phalaenopsis violacea orchid</h5>
+                <p class="card-text fw-bold">It is a small-to-medium-sized orchid that has beautiful purple flowers. It blooms in spring and summer, and the flowers have a spicy, cinnamon-like fragrance.</p>
+                <a href="#" class="btn">View Options</a>
+              </div>
+
+            </div>
+
+            
+
 
           </div>
 
-        </div>
+          <!-- <div class="d-flex justify-content-evenly py-5">
+            <div class="card row py-lg-25" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1610880410715-a1777d0a2326?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg3fHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div> -->
+
+            <!-- <div class="card" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1594135019404-8811e4f22d33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzIzfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div> -->
+
+            <!-- <div class="card" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1612528906318-cc0153dbf0c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzIxfHx0cm9waWNhbCUyMHBsYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+
+            </div> -->
+
+          </div> 
+    
     </main>
     
     <footer><!-- Remove the container if you want to extend the Footer to full width. -->
-      <div class="container my-5">
+      <div class="my-5">
         <!-- Footer -->
-        <footer class="text-center text-white" style="background-color: #3f51b5">
+        <footer class="text-center text-white" style="background-color: #c0b298">
           <!-- Grid container -->
           <div class="container">
             <!-- Section: Links -->
@@ -273,7 +442,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2">
                   <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-white">Awards</a>
+                    <a href="#!" class="text-white">Blog</a>
                   </h6>
                 </div>
                 <!-- Grid column -->
@@ -305,10 +474,7 @@
               <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                    distinctio earum repellat quaerat voluptatibus placeat nam,
-                    commodi optio pariatur est quia magnam eum harum corrupti
-                    dicta, aliquam sequi voluptate quas.
+                    We know that growing a luscious garden isn't just about growing plants—it's about growing our human connection to nature. We use our hearts, minds, and hands to grow the finest selection of plants for every need, indoors and out. Our passion for plants and years of expertise results in plants that everyone can grow lusciously, sharing in the joy and satisfaction that comes from nurturing living beauty at home.
                   </p>
                 </div>
               </div>
@@ -329,12 +495,12 @@
               <a href="" class="text-white me-4">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="" class="text-white me-4">
+              <!-- <a href="" class="text-white me-4">
                 <i class="fab fa-linkedin"></i>
               </a>
               <a href="" class="text-white me-4">
                 <i class="fab fa-github"></i>
-              </a>
+              </a> -->
             </section>
             <!-- Section: Social -->
           </div>
@@ -343,12 +509,11 @@
           <!-- Copyright -->
           <div
                class="text-center p-3"
-               style="background-color: rgba(0, 0, 0, 0.2)"
+               <!-- style="background-color: rgba(0, 0, 0, 0.2)" -->
                >
-            © 2023 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/"
-               >LetItRain.com</a
-              >
+            © 2012-2023 Copyright:
+            <a class="#" href="" id="com">LetItRain.com</a>
+              
           </div>
           <!-- Copyright -->
         </footer>
@@ -358,7 +523,7 @@
 
 
 
-        <address class="text-center">Created/Made by </address>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
