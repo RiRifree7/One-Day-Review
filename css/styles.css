@@ -7,6 +7,10 @@
     font-family: 'Delicious Handrawn', cursive;
 }
 
+/* #why {
+
+} */
+
 p {
     font-family: 'Noto Serif Lao', serif;
 }
@@ -28,6 +32,8 @@ nav {
     padding: 1 rem;
     margin: 7 rem;
 }
+
+
 
 
 .btn {
@@ -130,7 +136,8 @@ img {
 
 #raindrops {
     margin: 2px;
-    padding-top: 200px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .tropical {
@@ -141,12 +148,16 @@ img {
     color: #F17E67;
 }
 
-#card {
-   margin: 200px;
-   padding-bottom: 200px;
+ #card {
+   
+   height: 100%;
+   overflow: auto;
+   margin: auto;
+   display: inline-block;
+
 
     
-} 
+}  
 
 footer {
     color: #FFFADB;
@@ -155,3 +166,34 @@ footer {
 #com {
     color: #E4D154;
 }
+
+
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 9;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  } */

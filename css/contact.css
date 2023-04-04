@@ -1,0 +1,42 @@
+#title {
+    font-family: 'Dancing Script', cursive;
+}
+
+#tron {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+p {
+    font-family: 'Noto Serif Lao', serif;
+}
+
+body {
+    background-color: #FFFADB;
+}
+
+nav {
+    background-color: #FFFADB;
+}
+
+#dropdown {
+    background-color: #FFFADB;
+    text-decoration-color: #774936;
+}
+
+#jumbotron-section {
+    padding-top: 7 !important;
+    height: 560px;
+    background-image: url(https://images.unsplash.com/photo-1464151759330-a3441f3da55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#contact {
+    color: #E4D154;
+    text-decoration: underline;
+}
+
+#com {
+    color: #E4D154;
+}
