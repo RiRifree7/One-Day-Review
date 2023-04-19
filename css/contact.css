@@ -44,6 +44,10 @@ nav {
     text-decoration: underline;
 }
 
+.growing {
+    color: white;
+}
+
 #com {
     color: #E4D154;
 }
