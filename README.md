@@ -1,8 +1,12 @@
-# one-day-project
-# Getting Started
-1. Make sure to fork off of this repository to create a copy for your account.
-2. `git clone git@github.com:YOURUSERNAME/one-day-project` into desired directory on your local computer.
-3. Make sure to change directory after cloning repository.<br>
-    `cd one-day-project`
-4. Code away, and make sure to use [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) version when looking over documentation. Happy coding!
-# Final-Project
+Let It Rain Tropical Nursery
+I created this project as a final for my Intro to Web Developement training.
+
+I will demonstrate what I have learned throughout the entire fourteen weeks.
+
+What this project will contain:
+-Best Practices
+-Home page
+-About page
+-Contact page
+
+Note: This material, including the images and text, is used for educational purposes only to enhance learning about HTML and CSS. The images used are sourced from free stock photo websites. It is not intended to depict real-life situations or events, and any resemblance to actual people, places, or events is purely coincidental. The sole purpose of using this material is to provide a learning experience for HTML and CSS students.
