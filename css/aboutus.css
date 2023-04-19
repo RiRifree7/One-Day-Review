@@ -16,39 +16,34 @@
 
 p {
     font-family: 'Noto Serif Lao', serif;
+   
+}
+
+.happy {
     font-size: 30px;
 }
 
 body {
-    background-color: #FFFADB;
+    background: rgb(250,225,60);
+background: linear-gradient(0deg, rgba(250,225,60,1) 0%, rgba(226,22,84,1) 100%);
+    /* background-color: #E21654; */
     /* background: linear-gradient(135deg, #c0b298, #FFFADB); */
 }
 
 #jumbotron-section {
     padding-top: 7 !important;
     height: 560px;
-    background-image: url(https://images.unsplash.com/photo-1464151759330-a3441f3da55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+    background-image: url(https://images.unsplash.com/photo-1605027990121-cbae9e0642df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-size: cover;
     background-position: center center;
     
 }
 
-.parallax {
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
-
-
-
-
-
-
-
+#home, #products, #blog, #contact {
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+    color: black;
+}
 
 /* Fixed sidenav, full height */
 .sidenav {
@@ -65,9 +60,10 @@ body {
   
   /* Style the sidenav links and the dropdown button */
   .sidenav a, .dropdown-btn {
+    position: sticky;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 50px;
     color: #818181;
     display: block;
     border: none;
@@ -78,26 +74,22 @@ body {
     outline: none;
   }
   
-  On mouse-over
+  /* On mouse-over
   .sidenav a:hover, .dropdown-btn:hover {
     color: #f1f1f1;
-  }
+  } */
   
   /* Main content */
-  .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
+ 
   
   /* Add an active class to the active dropdown button */
-  .active {
+  /* .active {
     background-color: green;
     color: white;
-  }
+  } */
   
   /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-  .dropdown-container {
+  /* .dropdown-container {
     display: none;
     background-color: #262626;
     padding-left: 8px;
@@ -107,4 +99,28 @@ body {
   .fa-caret-down {
     float: right;
     padding-right: 8px;
+  } */
+
+  #talk {
+    font-size: 50px;
   }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  @media (min-width: 40rem) {
+    img {
+      float: right;
+      max-width: 50%;
+      margin: 0 0 1rem 1rem;
+    }
+  }
+
+ #com {
+    color: #459124;
+ }
