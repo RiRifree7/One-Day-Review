@@ -3,15 +3,20 @@
 }
 
 #tron {
-    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    /* font-family: 'Delicious Handrawn', cursive; */
+    color: #E4D154;
+    font-size: 110px;
 }
 
 p {
     font-family: 'Noto Serif Lao', serif;
+    color: #E4D154;
 }
 
 body {
     background-color: #FFFADB;
+    margin: 11px;
 }
 
 nav {
@@ -26,9 +31,11 @@ nav {
 #jumbotron-section {
     padding-top: 7 !important;
     height: 560px;
-    background-image: url(https://images.unsplash.com/photo-1464151759330-a3441f3da55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+    background-image: url(https://images.unsplash.com/photo-1516822266163-4f6dddc274d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-size: cover;
     background-position: center center;
+    font-size: 30px;
+
     
 }
 
